@@ -10,19 +10,19 @@ for the mobile version
 
 ### Main
 
-- [] Allow user to create accounts
-- [] User has inventory list
-- [] Inventory has groups to filter by
-- [] Items have pictures
-- [] Hosted on AWS
+- [ ] Allow user to create accounts
+- [ ] User has inventory list
+- [ ] Inventory has groups to filter by
+- [ ] Items have pictures
+- [ ] Hosted on AWS
 
 ### Mobile
 
-- [] Take pictures from app to add to items
+- [ ] Take pictures from app to add to items
 
 ### Extended
 
-- [] Link with Amazon to auto add to inventory
+- [ ] Link with Amazon to auto add to inventory
 
 
 ## Steps
