@@ -1,0 +1,33 @@
+{
+  "name": "Inventory",
+  "version": "1.0.0",
+  "description": "Keep track of all your things in one place.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleBWilson49/Inventory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleBWilson49/Inventory/issues"
+  },
+  "homepage": "https://github.com/KyleBWilson49/Inventory#readme",
+  "dependencies": {
+    "babel-core": "^6.1.4",
+    "babel-loader": "^6.1.0",
+    "babel-preset-react": "^6.1.4",
+    "react": "^0.14.2",
+    "react-addons-linked-state-mixin": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-router": "^2.0.0",
+    "webpack": "^1.12.4"
+  }
+}
