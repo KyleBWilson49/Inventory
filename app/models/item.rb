@@ -5,6 +5,6 @@ class Item < ActiveRecord::Base
   has_many :categories
 
   def main_category
-    Category.where("parent_id IS NULL AND item_id = ?", self.id).first
+    Category.where("parent_id IS NULL AND item_id = ?", self.id)
   end
 end
