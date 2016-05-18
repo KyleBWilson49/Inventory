@@ -14,6 +14,15 @@ class ItemsController < ApplicationController
     end
   end
 
+  def update
+    @item = Item.find(params[:id])
+    @item.update(user_params)
+
+    @current_user = current_user
+
+    render :update
+  end
+
   private
   def item_params
     params.require(:item)
