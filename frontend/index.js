@@ -1,11 +1,11 @@
 import React from 'react'
-import createStore from 'redux'
-import inventoryApp from './reducers/index'
-import Provider from 'react-redux'
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+import { render } from 'react-dom'
 import App from './App'
-import render from 'react-dom'
+import inventoryApp from './reducers/index.js'
 
-const store = createStore(inventoryApp)
+let store = createStore(inventoryApp)
 
 render(
   <Provider store={store}>
