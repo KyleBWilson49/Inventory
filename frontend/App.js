@@ -1,8 +1,9 @@
 import React from 'react'
+import Navbar from './components/navbar'
 
 const App = () => (
   <div>
-    <h1>Inventory App</h1>
+    <Navbar />
   </div>
 )
 
