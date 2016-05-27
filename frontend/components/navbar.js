@@ -1,12 +1,12 @@
 import React from 'react'
 
 const Navbar = () => (
-  <div>
-    <nav>
+  <div className='navbar'>
+    <nav className='title'>
       <h1>Inventory</h1>
     </nav>
-    <nav>Add Item</nav>
-    <nav>Log In/out</nav>
+    <nav className='link'>Add Item</nav>
+    <nav className='link'>Log In/out</nav>
   </div>
 )
 
